@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="/create-checkout-session" method="POST">
+            <p name="name" >{{ name }}</p>
+            <p name ="price" >{{ price }}</p>
+        <div class="row">
+          <input type="submit" value="checkout">
+        </div>
+        </form>
+      </div>
+    
+    <!-- <a href={{ pay_url }}><button width="10%" background-color="#dbb5e0">pay</button></a> -->
+</body>
+</html>
