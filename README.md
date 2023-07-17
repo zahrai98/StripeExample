@@ -1,2 +1,4 @@
 # StripeExample
-a simple project for adding subscription-id in database
+a simple project that after buing a product save subscription-id with webhook in postgresql database
+
+
